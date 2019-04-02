@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pranjal.customnavigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/desiremagic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/desiremagic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adminpage" />
+        <activity android:name=".register" />
+        <activity
+            android:name=".internPage"
+            android:label="@string/title_activity_intern_page"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".passcode" />
+        <activity android:name=".changePasscode" />
+        <activity android:name=".preorder" />
+        <activity android:name=".salesRecord" />
+        <activity android:name=".Main2Activity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_white_percent_5"
+    tools:context=".adminpage">
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/administrator"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/yellow"
+                android:layout_below="@id/about"
+                android:text="@string/add_member"
+                android:textColor="@color/pure_black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_below="@id/button1"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorAccent"
+                android:text="@string/view_sales_record"
+                android:textColor="@color/pure_black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_below="@id/button2"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue"
+                android:text="@string/view_preorder"
+                android:textColor="@color/pure_black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_below="@id/button3"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/blue1"
+                android:text="@string/change_passcode"
+                android:textColor="@color/pure_black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+</RelativeLayout>

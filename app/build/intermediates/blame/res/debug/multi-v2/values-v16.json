@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pranjalk/AndroidStudioProjects/Custom-Navigation-Drawer-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/pranjalk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/baa0453f43c1d3fc7874af1d06b7b9b2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/pranjalk/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/537f25bf80c59c0934c70ec540172376/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

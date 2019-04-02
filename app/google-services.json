@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "702079033266",
+    "firebase_url": "https://desireapp-b5f02.firebaseio.com",
+    "project_id": "desireapp-b5f02",
+    "storage_bucket": "desireapp-b5f02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702079033266:android:a9f83cff9a0fa633",
+        "android_client_info": {
+          "package_name": "com.pranjal.customnavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702079033266-hh7v6kl2esujbfnv7diquitjt37phcp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pranjal.customnavigationdrawer",
+            "certificate_hash": "45ea5eac4cd74d325ecfdae077df98ca7323b935"
+          }
+        },
+        {
+          "client_id": "702079033266-68bt97pfi3l1su7ofajefa5cr29l0lhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVlr9W9QWwD_bqdnYHfWW-vTwYhed7Ds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702079033266-68bt97pfi3l1su7ofajefa5cr29l0lhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

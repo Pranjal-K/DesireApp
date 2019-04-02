@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preorder">
+
+    <TextView
+        android:id="@+id/custdetails"
+        android:layout_width="242dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/place_order"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/custdetails"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rect">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/user"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:hint="Firstname"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:hint="Lastname"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+
+            <TextView
+                android:id="@+id/LocTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/location"
+                android:text="Location"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:hint="State"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:hint="City"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rect_address"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Address"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp" />
+
+
+            <TextView
+                android:id="@+id/ConTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/contact"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/contact"
+                android:text="Contact"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:ems="10"
+                android:hint="PhoneNumber"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/rounded_white"
+                android:ems="10"
+                android:hint="Email_Address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentRight="true" />
+            />
+
+            <TextView
+                android:id="@+id/OrderTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/cart"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/cart"
+                android:text="Order_Details"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/count"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/rounded_white"
+                android:ems="10"
+                android:hint="Copy_Count"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:layout_marginBottom="25dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:hint="@string/date"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:background="@drawable/rounded_white" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_btn"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="7dp"
+    android:elevation="90dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/post_title"
+            android:textColor="@color/pure_black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/copies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="231dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/copiescount"
+            android:textColor="@color/pure_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_title"
+            android:layout_alignStart="@+id/post_title"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/CustomerDetailsCard"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/custname"
+            android:layout_width="217dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="119dp"
+            android:text="@string/custname"
+            android:textColor="@color/pure_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/custaddr"
+            android:layout_width="297dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="304dp"
+            android:text="@string/custaddr"
+            android:textColor="@color/pure_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/custmob"
+            android:layout_width="221dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="178dp"
+            android:text="@string/custmob"
+            android:textColor="@color/pure_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/custemail"
+            android:layout_width="266dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="234dp"
+            android:text="@string/custemail"
+            android:textColor="@color/pure_black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

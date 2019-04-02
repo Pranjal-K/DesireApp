@@ -1,0 +1,73 @@
+<resources>
+
+    <string name="app_name">Desire</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DESIRE">DESIRE FOUNDATION</string>
+    <string name="ADHAYAAN">ADDHAYAAN</string>
+    <string name="aadar">The whole drive was successfully completed in Mumbai and Navi Mumbai, witnessing over 250 bellies burping with scrumptious food.</string>
+    <string name="buy">BUY NOW</string>
+    <string name="litter">The project was successfully implemented in two villages of Odisha in the year. 2017. We managed to install 10 street lights, distributed 40 study lamps and gave out 24 lanterns to the families of a remote village in Bhubaneswar.</string>
+    <string name="cost">EACH COPY ₹40</string>
+    <string name="buyinfo">We sale copies and collect money to basically run our organisation .We conduct events with the collected money.Over 300 underprivileged kids were provided with an education kit as a part of this project to nudge them towards education.</string>
+    <string name="idesire">#i_desire</string>
+    <string name="ABOUT">ABOUT</string>
+    <string name="IMPACT">IMPACT</string>
+    <string name="buybold">CLICK ON THE IMAGE TO BUY COPIES</string>
+    <string name="About"> A society with equal access to the basic humanitarian rights and educational opportunities irrespective of caste, creed, gender and financial background. Desire, to transform lives of people on the edges and do our bit for the society.</string>
+    <string name="impact">We have reached out to more than 7 urban slums in Bhubaneswar touching more than 600 families, 800+ children and more than 180 young minds by now in the form of the awareness drives, surveys, discussion sessions etc. In a matter of just 1 year, we have admitted 5 children from a slum of Bhubaneswar into schools. This is a mere start.</string>
+    <string name="achieve">We have reached out to more than 7 urban slums in Bhubaneswar touching more than 600 families, 800+ children and more than 180 young minds by now in the form of the awareness drives, surveys, discussion sessions etc.We are trying to cover each and every grain of the monument so that this monument we are building can withstand storms and hurricanes</string>
+    <string name="adhayaan">Adhyayan, which means, to study, is exactly what this project all about. Adhyayan strives to provide equal educational opportunities to the children of EWS of society under the ambit of RTE Act 12(1)(c) by using the youth as a resource</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_a_account_sign_up">Don\'t have a account? Sign up</string>
+    <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="title_activity_intern_page">internPage</string>
+
+    <string name="customer_details">CUSTOMER DETAILS</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="location">LOCATION</string>
+    <string name="address">Address</string>
+    <string name="lastname">LastName</string>
+    <string name="name">NAME</string>
+    <string name="firstname">FirstName</string>
+    <string name="contact">CONTACT</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="email_address">Email-Address</string>
+    <string name="submit">SUBMIT</string>
+    <string name="sold_by">Sold-By</string>
+    <string name="total_bill">Total-Bill</string>
+    <string name="copy_count">Copy-Count</string>
+    <string name="order_details">ORDER-DETAILS</string>
+    <string name="administrator">ADMINISTRATOR</string>
+    <string name="add_member">ADD MEMBER</string>
+    <string name="view_sales_record">VIEW SALES RECORD</string>
+    <string name="view_preorder">VIEW PREORDER</string>
+    <string name="change_passcode">Change Passcode</string>
+    <string name="CustomerDetailsCard">Customer Details</string>
+
+    <string name="SubmitPasscode">Submit</string>
+    <string name="adminpage">adminPage</string>
+    <string name="signout">signOut</string>
+    <string name="passcode">passcode</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="search">search</string>
+    <string name="events_and_achievement">EVENTS AND ACHIEVEMENT</string>
+    <string name="removing_darkness_from_slum_children_life">REMOVING DARKNESS FROM SLUM CHILDREN LIFE</string>
+    <string name="aahar">Aahar</string>
+    <string name="litter_of_light">litter-of-light</string>
+    <string name="post_title">POST TITLE</string>
+    <string name="copiescount">CopiesCount</string>
+    <string name="custname">CustName</string>
+    <string name="custaddr">CustAddr</string>
+    <string name="custmob">CustMob</string>
+    <string name="custemail">CustEmail</string>
+    <string name="date">Date</string>
+    <string name="place_order">Place Order</string>
+</resources>
+
