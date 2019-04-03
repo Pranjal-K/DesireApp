@@ -1,4 +1,5 @@
-![Screenshot from 2019-04-02 14-58-03.png](https://github.com/Pranjal-K/DesireApp/blob/master/Documentation/Screenshot%20from%202019-04-02%2014-58-03.png)
+![1](https://github.com/Pranjal-K/DesireApp/blob/master/Documentation/Screenshot%20from%202019-04-02%2014-58-03.png)
+![2](https://github.com/Pranjal-K/DesireApp/blob/master/Documentation/Screenshot%20from%202019-04-02%2014-58-05.png)
 
 It has smooth zoom-in, zoom-out animation when switched from one fragment to another.
 
