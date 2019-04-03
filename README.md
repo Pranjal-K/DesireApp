@@ -1,4 +1,6 @@
-![Screenshot from 2019-04-02 14-58-03.png](https://drive.google.com/open?id=1WTlDOceQas3960_8886CZy3CfCUgv6LU)
+![Screenshot from 2019-04-02 14-58-03.png](
+        DesireApp/Documentation/Screenshot from 2019-04-02 14-58-03.png
+      )
 
 It has smooth zoom-in, zoom-out animation when switched from one fragment to another.
 
